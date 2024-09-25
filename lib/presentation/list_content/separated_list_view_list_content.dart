@@ -15,7 +15,7 @@ class ColumnListContent extends StatelessWidget {
         return ListEntry(product: products[index]);
       },
       separatorBuilder: (context, index) {
-        return const SizedBox(height: 16); // Adjust the height as needed
+        return const SizedBox(height: 16);
       },
     );
   }
